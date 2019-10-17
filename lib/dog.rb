@@ -8,7 +8,8 @@ class Dog
     @name
   end  
   
-  def name=(new_name) # Setter, defined with an '=' after (syntactic sugar, not mandatory). To call a setter method, you use the . notation i.e., Joe.name = "Joseph"
+  # Setter, defined with an '=' after (syntactic sugar, not mandatory). To call a setter method, you use the . notation i.e., Joe.name = "Joseph"
+  def name=(new_name) 
     @name = new_name
   end
   
