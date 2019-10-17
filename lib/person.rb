@@ -5,11 +5,11 @@ classs Person
     @job = job
   end
   
-  def name
+  def name  # Getter
     @name
   end
   
-  def name=(new_name)
+  def name=(new_name)  #Setter
     @name = new_name
   end
   
@@ -21,3 +21,5 @@ classs Person
     @job = new_job
   end
 end
+
+=end
