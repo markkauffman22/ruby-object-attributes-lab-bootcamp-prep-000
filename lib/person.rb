@@ -1,4 +1,4 @@
-
+=begin
 classs Person
   def initialize(name, job)
     @name = name
