@@ -1,6 +1,6 @@
 
 class Person
-  def initialize()
+  def initialize() # Note - no need to pass mandatory args.
     @name = name
     @job = job
   end
