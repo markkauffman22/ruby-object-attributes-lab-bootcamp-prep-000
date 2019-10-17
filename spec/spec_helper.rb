@@ -1,5 +1,5 @@
-require_relative '../lib/dog.rb'
-require_relative '../lib/person.rb'
+require_relative '../lib/dog'
+require_relative '../lib/person'
 
 RSpec.configure do |config|
   config.order = :default
