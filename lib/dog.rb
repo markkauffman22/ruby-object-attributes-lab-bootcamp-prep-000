@@ -4,11 +4,11 @@ class Dog
     @breed = breed
   end  
   
-  def name # Getter
+  def name           # Getter
     @name
   end  
   
-  def name=(new_name) #Setter, defined with an '=' after
+  def name=(new_name) # Setter, defined with an '=' after
     @name = new_name
   end
   
